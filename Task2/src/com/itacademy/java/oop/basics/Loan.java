@@ -22,9 +22,7 @@ public class Loan {
         return amount;
     }
 
-    public void setLoanType(Loans loanType) {
-        this.loanType = loanType;
-    }
+    public void setLoanType(Loans loanType) { this.loanType = loanType; }
 
     public String getTerminationDate() {
         return terminationDate;

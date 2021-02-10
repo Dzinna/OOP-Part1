@@ -27,15 +27,15 @@ public class Customer {
         return surname;
     }
 
-    public int age() {
+    public int getAge() {
         return age;
     }
 
-    public String personalNumber() {
+    public String getPersonalNumber() {
         return personalNumber;
     }
 
-    public Loan[] loans() {
+    public Loan[] getLoans() {
         return loans;
     }
 
